@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/vandeurenglenn/define-custom-element#readme",
   "dependencies": {
-    "hyphenate": "^0.2.4"
+    "custom-util": "^1.0.1"
   }
 }

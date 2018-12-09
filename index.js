@@ -1,4 +1,4 @@
-import hyphenate from 'hyphenate';
+import { hyphenate } from 'custom-util';
 
 const shouldDefine = name => customElements.get(name) ? false : true;
 
@@ -7,6 +7,6 @@ export default klass => {
   if (!klass.constructor) return console.error('constructor required');
   if (!klass.name) return console.error('class name required');
 
-  const name = hyphenate(klass.name, { lowercase: true });
+  const name = hyphenate(klass.name);
   return shouldDefine(name) ? customElements.define(name, klass) : '';
 }
