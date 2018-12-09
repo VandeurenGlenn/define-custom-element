@@ -1,6 +1,6 @@
 {
   "name": "define-custom-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple helper function for defining customElementsV1.",
   "main": "index.js",
   "repository": {
