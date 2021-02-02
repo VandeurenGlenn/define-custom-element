@@ -3,9 +3,13 @@
   "version": "1.0.1",
   "description": "A simple helper function for defining customElementsV1.",
   "main": "index.js",
+  "module": "module.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vandeurenglenn/define-custom-element.git"
+  },
+  "scripts": {
+    "c": "rollup -c"
   },
   "keywords": [
     "custom-element",
@@ -19,6 +23,10 @@
   },
   "homepage": "https://github.com/vandeurenglenn/define-custom-element#readme",
   "dependencies": {
-    "custom-util": "^1.0.1"
+    "custom-util": "^1.0.1",
+    "uppercase-to-hyphen": "^1.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.38.4"
   }
 }
